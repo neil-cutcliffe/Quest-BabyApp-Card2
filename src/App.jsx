@@ -11,13 +11,7 @@ function App() {
       <StyledEngineProvider injectFirst>
         <ThemeProvider theme={questTheme}>
           <Routes>
-            <Route path="/" element={<SampleCard post={
-              {
-                 title   : 'Title Neil 3',
-                 content : 'Content Neil was here three.',
-                 image   : 'url(https://babyapps.io/test-1/wp-content/uploads/sites/14/2023/01/8344BA1F-CBA1-4E95-846C-66C913A43E30-2-scaled.jpeg)'
-              }
-            } />} />
+            <Route path="/" element={<SampleCard />} />
           </Routes>
         </ThemeProvider>
       </StyledEngineProvider>
