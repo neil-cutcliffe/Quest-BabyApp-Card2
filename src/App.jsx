@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider, StyledEngineProvider } from '@mui/material/styles';
 import questTheme from './QuestUiKitLightTheme';
-import SampleCard from './components/SampleCard/SampleCard';
 import Root, { loader as rootLoader } from "./root";
 
 const router = createBrowserRouter([
